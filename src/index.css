@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    margin-bottom: 100px;
+}
+
+
+.pr{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.img{
+    transition: all 0.5s;
+}
+
+.img:hover{
+    transform: translateY(-30px);
+    filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.5) );
+}
